@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .main {
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            border: 5px solid red;
+            border-image: repeating-linear-gradient(-50deg, transparent, transparent 1px, red 0, red 4px) 5;
+            /* transition: .4s cubic-bezier(0, 0, .3642, 1); */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main" data-aos="fade-up">
+
+    </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
